@@ -1,0 +1,27 @@
+/* Text + layout balance */
+.text-muted {
+  color: #6c757d !important;
+}
+
+/* Responsive spacing */
+@media (min-width: 992px) {
+  .row.align-items-center {
+    min-height: 75vh; /* vertically balanced layout */
+  }
+}
+
+/* Image scaling smoothness */
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+/* Optional: Better alignment for lists */
+ul {
+  padding-left: 0;
+  line-height: 1.8;
+  font-size: 0.95rem;
+}

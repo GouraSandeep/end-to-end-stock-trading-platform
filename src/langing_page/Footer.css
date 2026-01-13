@@ -1,0 +1,30 @@
+.footer-container {
+  background-color: #fafafa;
+  color: #666;
+  line-height: 1.7;
+}
+
+.footer-container a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  color: #387ed1;
+}
+
+.footer-container .social-icons i {
+  font-size: 18px;
+  margin-right: 12px;
+  color: #666;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.footer-container .social-icons i:hover {
+  color: #387ed1;
+}
+
+.footer-legal p {
+  margin-bottom: 0.7rem;
+}

@@ -1,13 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import "./index.css";
+import HomePage from "./langing_page/home/HomePage";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <h2>hello</h2>
+    <BrowserRouter>
+      <HomePage />
+    </BrowserRouter>
   </React.StrictMode>
 );
-
-
-
