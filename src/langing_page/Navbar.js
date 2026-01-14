@@ -13,7 +13,6 @@ function Navbar() {
       }}
     >
       <div className="container d-flex justify-content-between align-items-center">
-        {/* Logo */}
         <Link className="navbar-brand" to="/">
           <img
             src="media/images/logo.svg"
@@ -22,7 +21,6 @@ function Navbar() {
           />
         </Link>
 
-        {/* Toggler for Mobile */}
         <button
           className="navbar-toggler border-0"
           type="button"
@@ -35,7 +33,6 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Nav Links */}
         <div
           className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
