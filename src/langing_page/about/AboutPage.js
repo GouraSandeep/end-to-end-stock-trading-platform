@@ -1,6 +1,14 @@
 import React from "react";
+import Hero from "./Hero";
+import Team from "./Team";
+
 function About() {
-  return <h2>About</h2>;
+  return (
+    <>
+      <Hero></Hero>
+      <Team></Team>
+    </>
+  );
 }
 
 export default About;
