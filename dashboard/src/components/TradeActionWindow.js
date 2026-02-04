@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 import GeneralContext from "./GeneralContext";
-import "./BuyActionWindow.css"; // reuse same CSS
+import "./BuyActionWindow.css";
 
 const TradeActionWindow = ({ uid, mode }) => {
   const generalContext = useContext(GeneralContext);

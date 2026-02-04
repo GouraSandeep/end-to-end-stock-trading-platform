@@ -31,7 +31,7 @@ export const verifyToken = (req, res, next) => {
 
 //   jwt.verify(token, process.env.JWT_SECRET, (err, user) => {
 //     if (err) {
-//       console.error("JWT VERIFY ERROR:", err.message); // 🔥 THIS
+//       console.error("JWT VERIFY ERROR:", err.message); //
 //       return res.status(403).json({ msg: "Invalid token" });
 //     }
 

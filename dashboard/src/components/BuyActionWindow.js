@@ -32,7 +32,7 @@ const BuyActionWindow = ({ uid }) => {
           mode: "BUY",
         },
         {
-          withCredentials: true, // ✅ cookie sent
+          withCredentials: true,
         },
       );
 
@@ -45,7 +45,7 @@ const BuyActionWindow = ({ uid }) => {
           percent: 0,
         },
         {
-          withCredentials: true, // ✅ cookie sent
+          withCredentials: true,
         },
       );
 

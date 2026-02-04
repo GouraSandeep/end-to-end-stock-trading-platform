@@ -18,7 +18,6 @@ const Menu = () => {
         { withCredentials: true },
       );
 
-      // Optional: clear frontend storage
       localStorage.clear();
       sessionStorage.clear();
 
