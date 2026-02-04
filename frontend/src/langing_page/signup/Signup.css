@@ -1,0 +1,97 @@
+/* Page layout */
+.signup-page {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  background: #fff;
+}
+
+/* Form container */
+.signup-box {
+  width: 360px;
+}
+
+/* Title */
+.signup-box h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* Field wrapper */
+.field {
+  margin-bottom: 18px;
+}
+
+/* Labels */
+.field label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+/* Inputs – THIS FIXES YOUR ISSUE */
+.field input {
+  width: 100%;
+  height: 44px;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.field input:focus {
+  border-color: #387ed1;
+}
+
+/* Button */
+.signup-box button {
+  width: 100%;
+  height: 44px;
+  margin-top: 10px;
+  background: #387ed1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.signup-box button:hover {
+  background: #2f6fb2;
+}
+
+/* Footer text */
+.login-text {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-text span {
+  color: #387ed1;
+  cursor: pointer;
+}
+
+/* Error messages */
+.error-text {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #d93025;
+}
+
+.error-general {
+  background: #fdecea;
+  color: #d93025;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+

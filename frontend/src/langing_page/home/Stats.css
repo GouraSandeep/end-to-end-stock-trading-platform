@@ -1,0 +1,49 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #007bff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.link i {
+  color: inherit;
+  font-size: inherit;
+  transition: transform 0.2s ease;
+}
+
+.link:hover i {
+  transform: translateX(4px);
+}
+
+.link {
+  color: #007bff;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.link i {
+  color: inherit;
+  font-size: inherit;
+  transition: transform 0.2s ease;
+}
+
+.link:hover i {
+  transform: translateX(4px);
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
+
+
+
+/* Optional: Better spacing for desktop view */
+@media (min-width: 992px) {
+  .row.align-items-center {
+    min-height: 80vh; /* vertically balanced layout */
+  }
+}

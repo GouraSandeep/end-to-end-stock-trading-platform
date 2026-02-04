@@ -1,0 +1,13 @@
+.edu-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.edu-link:hover {
+  color: #0056b3;
+}
+
+
+

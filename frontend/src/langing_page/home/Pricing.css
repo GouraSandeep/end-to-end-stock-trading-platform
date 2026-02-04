@@ -1,0 +1,46 @@
+.link {
+  color: #007bff;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.link i {
+  color: inherit;
+  font-size: inherit;
+  transition: transform 0.2s ease;
+}
+
+.link:hover i {
+  transform: translateX(4px);
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
+/* Card enhancements */
+.border {
+  border: 1px solid #dee2e6 !important;
+}
+
+.shadow-sm {
+  transition: box-shadow 0.2s ease;
+}
+
+.shadow-sm:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Make layout vertically centered on large screens */
+@media (min-width: 992px) {
+  .row.align-items-center {
+    min-height: 70vh;
+  }
+}
+
+.container{
+  margin-top:0px !important;
+  padding-top: 0px !important;
+}
+
